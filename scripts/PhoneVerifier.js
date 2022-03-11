@@ -3,6 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Phone Verification Bot
+// @author       Angel Devil
 // @match        https://www.nike.com/member/settings
 // @match        https://www.nike.*/member/settings
 // @match        https://www.nike.*/*/member/settings
@@ -38,7 +39,7 @@ document.querySelector("select[class='country']").value="FR";
 } else{
 document.querySelector("select[class='country']").value="NL";
 }
-var url = 'https://api.sms-activate.org/stubs/handler_api.php?api_key=c8423ed12A6ec278db193feA71fd85bb&action=getNumber&service=ew&operator=any&country='+c_code;
+var url = 'https://api.sms-man.com/stubs/handler_api.php?api_key=Ij6k4J16j1rbtFFw32u3cCUjlZ27HUNc&action=getNumber&service=ew&operator=any&country='+c_code;
 var xhr = new XMLHttpRequest();
 xhr.open("GET", url);
 xhr.onreadystatechange = function () {
@@ -73,7 +74,7 @@ setTimeout(function addphone(){ document.querySelector("button[aria-label='Add M
 setTimeout(function exc1(){
    changenum();
    setTimeout(function exc2(){
-   var url = "https://api.sms-activate.org/stubs/handler_api.php?api_key=c8423ed12A6ec278db193feA71fd85bb&action=getStatus&id="+ver_id;
+   var url = "https://api.sms-man.com/stubs/handler_api.php?api_key=Ij6k4J16j1rbtFFw32u3cCUjlZ27HUNc&action=getStatus&id="+ver_id;
 var xhr = new XMLHttpRequest();
 xhr.open("GET", url);
 xhr.onreadystatechange = function () {

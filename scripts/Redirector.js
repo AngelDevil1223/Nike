@@ -3,6 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Redirector
+// @author       Angel Devil
 // @match        https://www.nike.com
 // @match        https://www.nike.com/
 // @match        https://www.nike.com/*/
