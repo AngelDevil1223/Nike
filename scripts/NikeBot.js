@@ -3,6 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Nike Account Registration Bot
+// @author       Angel Devil
 // @match        https://www.nike.com/register
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=nike.com
 // @grant        none
